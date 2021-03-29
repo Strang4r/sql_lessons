@@ -1,0 +1,1 @@
+SELECT exp(SUM(log(value))) 
