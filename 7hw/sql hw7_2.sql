@@ -1,0 +1,1 @@
+select `products`.name as prod, `catalogs`.name as cat, price, `description`, created_at, updated_at  from products join catalogs on catalog_id = `catalogs`.id;

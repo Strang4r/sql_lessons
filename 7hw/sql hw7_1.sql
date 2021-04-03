@@ -1,0 +1,1 @@
+select * from `user` where id in (select user_id from `order`);
